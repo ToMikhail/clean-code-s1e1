@@ -114,7 +114,6 @@ label[for='new-task'] {
 .task-list-item>* {
   vertical-align: middle;
 }
-
 .task-list-item>input[type="checkbox"] {
   margin: 0 10px;
 }
@@ -128,7 +127,7 @@ label[for='new-task'] {
   width: 226px;
 }
 .task-list-item>.delete-btn:hover {
-  color: #cf2323;
+  fill: #cf2323;
 }
 .delete-btn .delete-btn-img {
   height: 2em;
@@ -149,12 +148,10 @@ label[for='new-task'] {
 .task-list .input-text {
   display: none;
 }
-
 .task-list .edit-mode .input-text {
   display: inline-block;
   width: 224px;
 }
-
 .task-list .edit-mode .label {
   display: none;
 }
